@@ -78,6 +78,9 @@ module EncodingDotCom
   module AttributeRestrictionsWebm #:nodoc:
   end
 
+  module AttributeRestrictionsOgg #:nodoc:
+  end
+
   module AttributeRestrictionsWma #:nodoc:
   end
 
