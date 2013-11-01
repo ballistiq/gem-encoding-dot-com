@@ -4,7 +4,7 @@ module EncodingDotCom
 
     allowed_attributes :output, :size, :bitrate, :framerate, :video_codec, :audio_bitrate, :audio_sample_rate, :audio_codec, :audio_channels_number,
       :audio_volume, :maxrate, :minrate, :bufsize, :keyframe, :start, :duration, :rc_init_occupancy, :crop_top, :crop_left, :crop_right, :crop_bottom,
-      :logo_source, :logo_x, :logo_y, :logo_mode, :logo_threshold, :bitrates
+      :logo_source, :logo_x, :logo_y, :logo_mode, :logo_threshold, :bitrates, :keep_aspect_ratio
     boolean_attributes :two_pass, :cbr, :deinterlacing, :add_meta, :turbo, :pack_files, :keep_aspect_ratio
 
     def initialize(attributes={})
